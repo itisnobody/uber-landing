@@ -1,3 +1,7 @@
+html {
+  background-color: #212121;
+}
+
 html,
 body {
   font: normal normal 17px/24px 'Roboto', sans-serif;
@@ -24,8 +28,8 @@ a::before {
   height: 2px;
   background-color: #1EACC7;
   width: 0%;
-  -webkit-transition: all .3s;
-  transition: all .3s;
+  -webkit-transition: width .3s;
+  transition: width .3s;
 }
 
 a:hover {
