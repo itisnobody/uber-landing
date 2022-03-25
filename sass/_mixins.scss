@@ -1,0 +1,3 @@
+@mixin bgimg-cover($url) {
+  background: url($url) center center/cover no-repeat;
+}

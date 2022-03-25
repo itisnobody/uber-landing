@@ -1,0 +1,17 @@
+html,
+body {
+  font: normal normal 17px/24px 'Roboto', sans-serif;
+}
+
+button {
+  border: none;
+}
+
+i {
+  font-style: normal;
+}
+
+@import 'variables';
+@import 'mixins';
+@import 'general';
+@import 'media';
